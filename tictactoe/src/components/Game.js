@@ -1,6 +1,6 @@
 import React from "react";
 import Board from "./Board";
-import calculateWinner from "../Services"
+import {calculateWinner} from "../services"
 
 class Game extends React.Component {
     constructor(props){
